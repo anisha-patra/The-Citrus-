@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+.div1 {
+  background: red;
+  
+}
+
+.div2 {
+  background: yellow;
+}
+
+.div3 {
+  background: green;
+}
+
+.div4 {
+  background: blue;
+}
+
+.div5 {
+  background: rgb(99, 233, 72);
+}
+.div6 {
+  background: rgb(255, 0, 149);
+}
+.div7 {
+  background: rgb(255, 174, 0);
+}
+.div8 {
+  background: rgb(180, 180, 255);
+}
+.div9 {
+  background: rgb(51, 5, 124);
+}
+.div10 {
+  background: rgb(186, 226, 6);
+}
+.div11 {
+  background: rgb(170, 60, 9);
+}
+.div12 {
+  background: rgb(19, 168, 94);
+}
+
+/* ::after, ::before {
+  box-sizing: border-box;
+  background: chocolate;
+} */
+
+.div-color{
+ 
+    min-height:100vh;
+    
+    background-color:aquamarine;
+}
