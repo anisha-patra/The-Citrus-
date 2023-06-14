@@ -50,6 +50,7 @@ function Dashboard(props) {
         <div className='container'>
             <h1>visitors per hour in a restaurant</h1>
             <Button
+             color="info"
             onClick={()=>
             {
               window.location.href="/dashboard"

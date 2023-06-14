@@ -5,24 +5,14 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Button } from 're
 function Dashboard(props) {
   const [dropdownOpen, setdropdownOpen] = useState(false);
     const[chart,setChart]=useState({
-        series: [150, 40, 45, 50, 49, 60, 70, 91,1,5,12,36],
+        series: [150, 40, 45, 50, 49, 60, 70, 91,9,5,12,36],
         options: {
           chart: {
             width: 380,
             type: 'pie',
           },
           labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug","Sep","Oct","Nov","Dec"],
-          responsive: [{
-            breakpoint: 480,
-            options: {
-              chart: {
-                width: 200
-              },
-              legend: {
-                position: 'bottom'
-              }
-            }
-          }]
+          
         },
       
       
@@ -43,38 +33,41 @@ function Dashboard(props) {
               data: [150, 40, 45, 50, 49, 60, 70, 91,1,5,12,36]
             }
           ]
+
+        
+          // series: [{
+          //             name: 'Designer',
+          //             color:'#0000D1',
+          //             data: [4,4, 3,3 , 2, 2,1]
+          //           }, {
+          //             name: 'Developer',
+          //             color:'#007500',
+          //             data: [0, 0, 1, 2, 4, 4,3]
+          //           }, {
+          //             name: 'Tester',
+          //             color:'#B8860B',
+          //             data: [0, 0, 0, 0, 2, 2,2]
+          //           }, 
+                    
+          //         ],
+          //           options: {
+          //             chart: {
+          //               type: 'bar',
+          //               height: 350,
+          //               stacked: true,
+                     
+          //             },
+                     
+                     
+          //             xaxis: {
+                      
+          //               categories: [1,2,3,4,5,6,7
+          //               ],
+          //             },
+                      
+          //           }
+                  
  
-        // series: [{
-        //     name: 'Managers',
-        //     data: [1,1, 1,1 , 1, 1]
-        //   }, {
-        //     name: 'Business Analysts',
-        //     data: [2, 2, 2, 1, 1, 1]
-        //   }, {
-        //     name: 'Programmers',
-        //     data: [1, 1, 4, 4, 4, 1]
-        //   }, 
-        //   {
-        //     name: 'Technical Writers',
-        //     data: [0, 0, 0, 1, 1, 1]
-        //   }
-        // ],
-        //   options: {
-        //     chart: {
-        //       type: 'bar',
-        //       height: 350,
-        //       stacked: true,
-           
-        //     },
-           
-        //     xaxis: {
-            
-        //       categories: ['Jan', 'Feb', 'Mar', 'Apr',
-        //         'May', 'Jun'
-        //       ],
-        //     },
-            
-        //   },
         
         
         }
